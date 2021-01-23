@@ -45,7 +45,7 @@ const library = {
        },
        {
          prompt: "If you are this person, you are who? (teacher)",
-         image: "iamAteacher.jpg",
+         image: "iamateacher.jpg",
          alt: "Picture of Teacher",
          credit: `<span>Photo by <a href="https://unsplash.com/@windows?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Windows</a> on <a href="https://unsplash.com/s/photos/teacher-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: " 저는 선생님이에요",
@@ -59,7 +59,7 @@ const library = {
        },
        {
          prompt: "Who is that person? (man)",
-         image: "iamAperson.jpg",
+         image: "iamaperson.jpg",
          alt: "Guy points to himself",
          credit: `<span>Photo by <a href="https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">christian buehner</a> on <a href="https://unsplash.com/s/photos/man-points-to-himself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "그 사람은 남자예요",
