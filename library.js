@@ -656,7 +656,7 @@ const library = {
       },
       {
         prompt: "You accidentally bump into someone you say (Sorry)",
-        image: "muscleguylooksdistressed.jpg",
+        image: "muscleguylooksdistressed_b1Vrk.jpg",
         alt: "A muscle guy looks distressed.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@spanic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Damir Spanic</a> on <a href="https://unsplash.com/s/photos/sorry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "미안합니다",
@@ -775,7 +775,7 @@ const library = {
       },
       {
         prompt: "You too know that? (Yes..)",
-        image: "manHoldinglightbulb.jpg",
+        image: "manholdinglightbulb.jpg",
         alt: "Man holding a light bulb",
         credit: `<span>Photo by <a href="https://unsplash.com/@pavement_special?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Riccardo Annandale</a> on <a href="https://unsplash.com/s/photos/light-bulb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: " 저도 그것을 알아요",
@@ -854,7 +854,7 @@ const library = {
       },
       {
         prompt: "Does the cat come to the train station?",
-        image: "catonfainttraintracks.jpg",
+        image: "catonfainttraintrack_K2I7V.jpg",
         alt: "cat on faint train tracks.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@miklevasilyev?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">MIKHAIL VASILYEV</a> on <a href="https://unsplash.com/s/photos/cat-at-train-station?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 고양이는 역에 와요",
