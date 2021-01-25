@@ -456,7 +456,7 @@ const library = {
       },
       {
         prompt: "Is this bus big? (yes…..)",
-        image: "infrontOfschool.jpg",
+        image: "infrontofschool.jpg",
         alt: "Picture of a big bus",
         credit: `<span>Photo by <a href="https://unsplash.com/@sapegin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Artem Sapegin</a> on <a href="https://unsplash.com/s/photos/in-front-of-school?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 이 버스는 커요",
@@ -656,7 +656,7 @@ const library = {
       },
       {
         prompt: "You accidentally bump into someone you say (Sorry)",
-        image: "muscleguylooksdistressed_b1Vrk.jpg",
+        image: "muscleguylooksdistresse_b1Vrk.jpg",
         alt: "A muscle guy looks distressed.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@spanic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Damir Spanic</a> on <a href="https://unsplash.com/s/photos/sorry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "미안합니다",
