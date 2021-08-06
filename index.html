@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korean flashcards</title>
+    <title>Speaking and Listening Practice for Korean</title>
     <link rel="stylesheet" href="styles.css">
     <script src="library.js"></script>
     
@@ -329,31 +329,64 @@
     
     <div id="knownSentences">
       <h3>Practice the sentences directly from the chapter</h3>
-      <button type="button" id="knownSentencesbutton">Click Me!</button>
+      <button type="button" id="knownSentencesbutton">Next Sentence</button>
+      <button type="button" id="knownSentencesAnswer">Hear Answer</button>
+      <button type="button" id="knownSentencesQuestion">Repeat Question</button>
       <div id="knownSentencesLine"></div>
       </div>
     
       <div id="unknownSentences">
       <h3>Additional sentences</h3>
-      <button type="button" id="unknownSentencesbutton">Click Me!</button>
+      <button type="button" id="unknownSentencesbutton">Next Sentence</button>
+      <button type="button" id="unknownSentencesAnswer">Hear Answer</button>
+      <button type="button" id="unknownSentencesQuestion">Repeat Question</button>
       <div id="unknownSentencesLine"></div>
       </div>
     
       <div id="chapSentences">
       <h3>Shuffle this chapter</h3>
-      <button type="button" id="chapSentencesbutton">Click Me!</button>
+      <button type="button" id="chapSentencesbutton">Next Sentence</button>
+      <button type="button" id="chapSentencesAnswer">Hear Answer</button>
+      <button type="button" id="chapSentencesQuestion">Repeat Question</button>
       <div id="chapSentencesLine"></div>
       </div>
 
       <div id="masterSentences" style="display:none">
         <h3>Shuffle all chapters up to this point</h3>
-        <button type="button" id="masterSentencesbutton">Click Me!</button>
+        <button type="button" id="masterSentencesbutton">Next Sentence</button>
+        <button type="button" id="masterSentencesAnswer">Hear Answer</button>
+        <button type="button" id="masterSentencesQuestion">Repeat Question</button>
         <div id="masterSentencesLine"></div>
       </div>
 
-      <p>Click to Reveal Answers</p> <input type="checkbox" id="myCheck">
-      <div id="hideAnswersLine">안녕하세요</div>
-  
+      <label for="myCheck">See Answers Automatically</label> <input type="checkbox" id="myCheck">
+      <div for="myCheck" id="hideAnswersLine">안녕하세요</div>
+
+      <form>
+        <p>Please select your audio options:</p>
+        <input type="radio" id="aAudioCheck" name="audio" value="aAnswers">
+        <label for="aAudioCheck">Hear Answers Automatically</label><br>
+        <input type="radio" id="qAudioCheck" name="audio" value="aQuestions">
+        <label for="qAudioCheck">Hear Questions Automatically</label><br>
+        <input type="radio" id="noAudio" name="audio" value="noAudio"checked>
+        <label for="noAudio">No Audio</label>
+        <!-- <input type="button" id="actionBtn" value="Confirm sound change"> -->
+      </form>
+
+      <!-- <label for="qAudioCheck">Check to hear Questions</label> <input type="checkbox" id="qAudioCheck"> -->
+      <div>
+        <audio id="qSoundLine" src="audio/questions/1-1.1/1.mp3"> 
+          <source src="audio/questions/1-1.1/1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <!-- <label for="aAudioCheck">Check to hear Answers</label> <input type="checkbox" id="aAudioCheck"> -->
+      <div>
+        <audio id="aSoundLine" src="audio/answers/1-1.1/1.mp3"> 
+          <source src="audio/answers/1-1.1/1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
 
     <div class="container">
       <div id="prompt-display">

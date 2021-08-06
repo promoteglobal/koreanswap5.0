@@ -7,6 +7,8 @@ const library = {
          alt: "Words:Say hello to others",
          credit: `<span>Photo by <a href="https://unsplash.com/@kevin_butz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kevin Butz</a> on <a href="https://unsplash.com/s/photos/hello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "안녕하세요",
+         qaudio: "1.mp3",
+         aaudio: "1.mp3",
        },
        {
          prompt: "If I do something nice for you, you can respond with: (thank you)",
@@ -14,6 +16,8 @@ const library = {
          alt: "Picture of the words Thank You",
          credit: `<span>Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/s/photos/student?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "감사합니다",
+         qaudio: "2.mp3",
+         aaudio: "2.mp3",
        },
        {
          prompt: "If you agree to something you can say: (yes)",
@@ -21,6 +25,8 @@ const library = {
          alt: "Picture of the word yes",
          credit: `<span>Photo by <a href="https://unsplash.com/@shelly94?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Michèle Eckert</a> on <a href="https://unsplash.com/s/photos/yes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "네",
+         qaudio: "3.mp3",
+         aaudio: "3.mp3",
        },
        {
          prompt: "If you disagree with something, you can say (no)",
@@ -28,6 +34,8 @@ const library = {
          alt: "Picture of the word no",
          credit: `<span>Photo by <a href="https://unsplash.com/@stayandroam?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gemma Evans</a> on <a href="https://unsplash.com/s/photos/no?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "아니요",
+         qaudio: "4.mp3",
+         aaudio: "4.mp3",
        },
        {
          prompt: "If you want something, to be polite you can say: (please)",
@@ -35,6 +43,8 @@ const library = {
          alt: "hands saying please",
          credit: `<span>Photo by <a href="https://unsplash.com/@fan11?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fa Barboza</a> on <a href="https://unsplash.com/s/photos/pray?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "제발",
+         qaudio: "5.mp3",
+         aaudio: "8.mp3",
        },
        {
          prompt: "If you are this person, you are who? (woman)",
@@ -42,6 +52,8 @@ const library = {
          alt: "Picture of Woman",
          credit: `<span>Photo by <a href="https://unsplash.com/@tyfeague?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ty Feague</a> on <a href="https://unsplash.com/s/photos/woman-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "저는 여자예요",
+         qaudio: "6.mp3",
+         aaudio: "9.mp3",
        },
        {
          prompt: "If you are this person, you are who? (teacher)",
@@ -49,6 +61,8 @@ const library = {
          alt: "Picture of Teacher",
          credit: `<span>Photo by <a href="https://unsplash.com/@windows?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Windows</a> on <a href="https://unsplash.com/s/photos/teacher-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: " 저는 선생님이에요",
+         qaudio: "7.mp3",
+         aaudio: "10.mp3",
        },
        {
          prompt: "I am not an alien, but I am a? (person)",
@@ -56,6 +70,8 @@ const library = {
          alt: "Guy points to himself",
          credit: `<span>Photo by <a href="https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">christian buehner</a> on <a href="https://unsplash.com/s/photos/man-points-to-himself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "저는 사람이에요",
+         qaudio: "8.mp3",
+         aaudio: "11.mp3",
        },
        {
          prompt: "Is that person a man or a woman? (man)",
@@ -63,6 +79,8 @@ const library = {
          alt: "Guy points to himself",
          credit: `<span>Photo by <a href="https://unsplash.com/@christianbuehner?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">christian buehner</a> on <a href="https://unsplash.com/s/photos/man-points-to-himself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "그 사람은 남자예요",
+         qaudio: "9.mp3",
+         aaudio: "16.mp3",
        },
        {
          prompt: "Who is that person? (doctor)",
@@ -70,6 +88,8 @@ const library = {
          alt: "Picture of a Doctor",
          credit: `<span>Photo by <a href="https://unsplash.com/@jcgellidon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JC Gellidon</a> on <a href="https://unsplash.com/s/photos/doctor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "그 사람은 의사예요",
+         qaudio: "17.mp3",
+         aaudio: "12.mp3",
        },
        {
          prompt: "Is that person a man or a woman? (woman)",
@@ -77,13 +97,17 @@ const library = {
          alt: "Picture of Woman",
          credit: `<span>Photo by <a href="https://unsplash.com/@tyfeague?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ty Feague</a> on <a href="https://unsplash.com/s/photos/woman-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "그 사람은 여자예요",
+         qaudio: "11.mp3",
+         aaudio: "17.mp3",
        },
        {
-         prompt: "Who is this person? (teacher)",
-         image: "thatpersonisadoctor.jpg",
-         alt: "Picture of a Doctor",
-         credit: `<span>Photo by <a href="https://unsplash.com/@jcgellidon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JC Gellidon</a> on <a href="https://unsplash.com/s/photos/doctor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
+         prompt: "Who is that person? (teacher)",
+         image: "iamateacher.jpg",
+         alt: "Picture of Teacher",
+         credit: `<span>Photo by <a href="https://unsplash.com/@windows?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Windows</a> on <a href="https://unsplash.com/s/photos/teacher-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "그 사람은 선생님이에요",
+         qaudio: "12.mp3",
+         aaudio: "13.mp3",
        },
        {
          prompt: "Is that person a student or a teacher? (student)",
@@ -91,6 +115,8 @@ const library = {
          alt: "Picture of a student",
          credit: `<span>Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/s/photos/student?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "그 사람은 학생이에요",
+         qaudio: "13.mp3",
+         aaudio: "5.mp3",
        },
        {
          prompt: "What is this? (tree)",
@@ -98,6 +124,8 @@ const library = {
          alt: "Picture of a Tree",
          credit: `<span>Photo by <a href="https://unsplash.com/@fabulu75?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fabrice Villard</a> on <a href="https://unsplash.com/s/photos/tree?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 나무예요",
+         qaudio: "14.mp3",
+         aaudio: "19.mp3",
        },
        {
          prompt: "What is this (table)",
@@ -105,6 +133,8 @@ const library = {
          alt: "Picture of a table",
          credit: `<span>Photo by <a href="https://unsplash.com/@olenkasergienko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Olena Sergienko</a> on <a href="https://unsplash.com/s/photos/table?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 탁자예요",
+         qaudio: "15.mp3",
+         aaudio: "14.mp3",
        },
        {
          prompt: "What is that? (bed)",
@@ -112,6 +142,8 @@ const library = {
          alt: "Picture of a bed",
          credit: `<span>Photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">NeONBRAND</a> on <a href="https://unsplash.com/s/photos/bed?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "저것은 침대예요",
+         qaudio: "16.mp3",
+         aaudio: "15.mp3",
        },
        {
          prompt: "What is that? (car)",
@@ -119,6 +151,8 @@ const library = {
          alt: "Picture of a Car",
          credit: `<span>Photo by <a href="https://unsplash.com/@eduardoflorespe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eduardo Flores</a> on <a href="https://unsplash.com/s/photos/car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "그것은 차예요",
+         qaudio: "17.mp3",
+         aaudio: "18.mp3",
        },
      ], //need to fill in more blanks starting from here
      "1-1.2":[
@@ -128,6 +162,8 @@ const library = {
          alt: "Picture of Korean city",
          credit: `<span>Photo by <a href="https://unsplash.com/@dandycolor?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Saveliy Bobov</a> on <a href="https://unsplash.com/s/photos/korea?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 한국이에요  (네, 이것은 도시예요) ",
+         qaudio: "1.mp3",
+         aaudio: "1.mp3",
      
        },
        {
@@ -136,6 +172,8 @@ const library = {
          alt: "Picture of China",
          credit: `<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/china?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 중국이에요",
+         qaudio: "2.mp3",
+         aaudio: "2.mp3",
      
        },
        {
@@ -144,6 +182,8 @@ const library = {
          alt: "Picture of Japan",
          credit: `<span>Photo by <a href="https://unsplash.com/@nicki_schinow?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nicki Eliza Schinow</a> on <a href="https://unsplash.com/s/photos/japan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 일본이에요",
+         qaudio: "3.mp3",
+         aaudio: "3.mp3",
        },
        {
          prompt: "What is that? (a house)",
@@ -151,6 +191,8 @@ const library = {
          alt: "Picture of a house",
          credit: `<span>Photo by <a href="https://unsplash.com/@jacquesbopp?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jacques Bopp</a> on <a href="https://unsplash.com/s/photos/house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "저것은 집이에요",
+         qaudio: "4.mp3",
+         aaudio: "4.mp3",
        },
        {
          prompt: "What is this? (name)",
@@ -158,6 +200,8 @@ const library = {
          alt: "Picture of a name on a name tag",
          credit: `<span>Photo by <a href="https://unsplash.com/@_blahblake?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Blake Barlow</a> on <a href="https://unsplash.com/s/photos/name-tag?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 이름이에요",
+         qaudio: "5.mp3",
+         aaudio: "5.mp3",
        },
        {
          prompt: "What is that? (a chair)",
@@ -165,6 +209,8 @@ const library = {
          alt: "Picture of a chair",
          credit: `<span>Photo by <a href="https://unsplash.com/@andresloquesea?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andrés Gómez</a> on <a href="https://unsplash.com/s/photos/chair?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "저것은 의자예요",
+         qaudio: "6.mp3",
+         aaudio: "6.mp3",
        },
        {
          prompt: "What is this? (book)",
@@ -172,13 +218,17 @@ const library = {
          alt: "Picture of a Book",
          credit: `<span>Photo by <a href="https://unsplash.com/@blazphoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Blaz Photo</a> on <a href="https://unsplash.com/s/photos/book?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 책이에요",
+         qaudio: "7.mp3",
+         aaudio: "7.mp3",
        },
        {
          prompt: "What is that? (a computer)",
          image: "thisisacomputer.jpg",
          alt: "Picture of a computer",
          credit: `<span>Photo by <a href="https://unsplash.com/@nicklbaert?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Niclas Illg</a> on <a href="https://unsplash.com/s/photos/computer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
-         answer: "저것은 컴퓨너예요",
+         answer: "저것은 컴퓨터예요",
+         qaudio: "8.mp3",
+         aaudio: "8.mp3",
        },
        {
          prompt: "What is this? (sofa)",
@@ -186,6 +236,8 @@ const library = {
          alt: "Picture of a sofa",
          credit: `<span>Photo by <a href="https://unsplash.com/@paulweaver?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Paul Weaver</a> on <a href="https://unsplash.com/s/photos/sofa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "이것은 소파예요",
+         qaudio: "9.mp3",
+         aaudio: "9.mp3",
        },
        {
          prompt: "What is that? (a door)",
@@ -193,6 +245,8 @@ const library = {
          alt: "Picture of a door",
          credit: `<span>Photo by <a href="https://unsplash.com/@allthestars?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sophie Dale</a> on <a href="https://unsplash.com/s/photos/door?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "저것은 문이에요",
+         qaudio: "10.mp3",
+         aaudio: "10.mp3",
        },
      ],
     "1-2.1": [
@@ -202,6 +256,8 @@ const library = {
         alt: "Words:Person has a pen", 
         credit: `<span>Photo by <a href="https://unsplash.com/@conscious_design?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Conscious Design</a> on <a href="https://unsplash.com/s/photos/person-with-pen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,  
         answer: "저는 펜이 있어요",
+        qaudio: "1.mp3",
+        aaudio: "1.mp3",
       },
       {
         prompt: "What do you have? (car)",
@@ -209,6 +265,8 @@ const library = {
         alt: "Picture of a Car",
         credit: `<span>Photo by <a href="https://unsplash.com/@eduardoflorespe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eduardo Flores</a> on <a href="https://unsplash.com/s/photos/car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 차가 있어요",
+        qaudio: "2.mp3",
+        aaudio: "2.mp3",
       },
       {
         prompt: "What do you have? (magazine)",
@@ -216,6 +274,8 @@ const library = {
         alt: "Person holding a magazine",
         credit: `<span>Photo by <a href="https://unsplash.com/@trueagency?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">True Agency</a> on <a href="https://unsplash.com/s/photos/magazine?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 잡지가 있어요",
+        qaudio: "3.mp3",
+        aaudio: "3.mp3",
       },
       {
         prompt: "What do you have? (backpack)",
@@ -223,6 +283,8 @@ const library = {
         alt: "Picture of a backpack",
         credit: `<span>Photo by <a href="https://unsplash.com/@trueagency?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">True Agency</a> on <a href="https://unsplash.com/s/photos/backpack?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 가방이 있어요",
+        qaudio: "4.mp3",
+        aaudio: "4.mp3",
       },
       {
         prompt: "Where are you? (school)",
@@ -230,6 +292,8 @@ const library = {
         alt: "Picture of school",
         credit: `<span>Photo by <a href="https://unsplash.com/@element5digital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Element5 Digital</a> on <a href="https://unsplash.com/photos/OyCl7Y4y0Bk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 학교에 있어요",
+        qaudio: "5.mp3",
+        aaudio: "5.mp3",
       },
       {
         prompt: "Where are you? (Canada) Is Canada a country?",
@@ -237,6 +301,8 @@ const library = {
         alt: "Picture of canada",
         credit: `<span>Photo by <a href="https://unsplash.com/@britishlibrary?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">British Library</a> on <a href="https://unsplash.com/s/photos/canada-map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 캐나다에 있어요. 네 캐나다는 나라예요",
+        qaudio: "6.mp3",
+        aaudio: "6.mp3",
       },
       {
         prompt: "Where are you? (in front of the school) Where is the hotel? (next to the school)",
@@ -244,6 +310,8 @@ const library = {
         alt: "Picture of a bus infront of a school",
         credit: `<span>Photo by <a href="https://unsplash.com/@sapegin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Artem Sapegin</a> on <a href="https://unsplash.com/s/photos/in-front-of-school?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 학교 앞에 있어요. 호텔는 학교 옆에 있어요",
+        qaudio: "7.mp3",
+        aaudio: "7.mp3",
       },
       {
         prompt: "Where are you? (behind the school)",
@@ -251,6 +319,8 @@ const library = {
         alt: "Picture of bus behind a building",
         credit: `<span>Photo by <a href="https://unsplash.com/@eduardoflorespe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eduardo Flores</a> on <a href="https://unsplash.com/s/photos/car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 학교 뒤에 있어요",
+        qaudio: "8.mp3",
+        aaudio: "8.mp3",
       },
       {
         prompt: "Where are you? (beside the school)",
@@ -258,6 +328,8 @@ const library = {
         alt: "Picture of a person beside the school",
         credit: `<span>Photo by <a href="https://unsplash.com/@vheath?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Victoria Heath</a> on <a href="https://unsplash.com/s/photos/beside-of-school?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 학교 옆에 있어요",
+        qaudio: "9.mp3",
+        aaudio: "9.mp3",
       },
       {
         prompt: "Where are you? (inside the bank)",
@@ -265,6 +337,8 @@ const library = {
         alt: "Picture of a Bank",
         credit: `<span>Photo by <a href="https://unsplash.com/@alexmotoc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alex Motoc</a> on <a href="https://unsplash.com/s/photos/bank?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "저는 은행 안에 있어요",
+        qaudio: "10.mp3",
+        aaudio: "10.mp3",
       },
       {
         prompt: "Where is the dog? (inside the house)",
@@ -272,6 +346,8 @@ const library = {
         alt: "Picture of a dog in a house",
         credit: `<span>Photo by <a href="https://unsplash.com/@wadeaustinellis?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Wade Austin Ellis</a> on <a href="https://unsplash.com/s/photos/dog-in-a-house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "개는 집 안에 있어요",
+        qaudio: "11.mp3",
+        aaudio: "11.mp3",
       },
       {
         prompt: "Where is the cat? (under the chair)",
@@ -279,6 +355,8 @@ const library = {
         alt: "Picture of a chair with words cat under the chair",
         credit: `<span>Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/under-a-chair?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "고양이는 의자 밑에 있어요",
+        qaudio: "12.mp3",
+        aaudio: "12.mp3",
       },
       {
         prompt: "Where is the restaurant (next to the bank)",
@@ -286,6 +364,8 @@ const library = {
         alt: "Picture of a restarant.",
         credit: `<span>Photo by <a href="https://unsplash.com/@adrienolichon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Adrien Olichon</a> on <a href="https://unsplash.com/s/photos/restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "식당은 은행 옆에 있어요",
+        qaudio: "13.mp3",
+        aaudio: "13.mp3",
       },
       {
         prompt: "Where is the cat? (behind the house) (“compared to the dog in-front of the house)",
@@ -293,6 +373,8 @@ const library = {
         alt: "Picture of a cat. Where is the cat? behind the house.",
         credit: `<span>Photo by <a href="https://unsplash.com/@snowboardinec?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Max Baskakov</a> on <a href="https://unsplash.com/s/photos/cat-behind-house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "고양이는 집 뒤에 있어요",
+        qaudio: "14.mp3",
+        aaudio: "15.mp3",
       },
       {
         prompt: "Where is the cat? (behind the house) (“just stating a fact, not comparing anything)",
@@ -300,6 +382,8 @@ const library = {
         alt: "Picture of a cat. Where is the cat? behind the house.",
         credit: `<span>Photo by <a href="https://unsplash.com/@snowboardinec?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Max Baskakov</a> on <a href="https://unsplash.com/s/photos/cat-behind-house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "고양이가 집 뒤에 있어요",
+        qaudio: "15.mp3",
+        aaudio: "16.mp3",
       },
     ],
     "1-2.2":[
@@ -309,7 +393,8 @@ const library = {
         alt: "Picture of canada",
         credit: `<span>Photo by <a href="https://unsplash.com/@britishlibrary?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">British Library</a> on <a href="https://unsplash.com/s/photos/canada-map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 개나다에 있어요. 네, 캐나다는 나라예요",
-
+        qaudio: "1.mp3",
+        aaudio: "1.mp3",
       },
       {
         prompt: "Where are you? (behind the window)",
@@ -317,6 +402,8 @@ const library = {
         alt: "Picture of a window.",
         credit: `<span>Photo by <a href="https://unsplash.com/@danielle_dolson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Danielle Dolson</a> on <a href="https://unsplash.com/s/photos/window?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 창문 뒤에 있어요",
+        qaudio: "2.mp3",
+        aaudio: "2.mp3",
 
       },
       {
@@ -325,6 +412,8 @@ const library = {
         alt: "Picture of a room.",
         credit: `<span>Photo by <a href="https://unsplash.com/@fromitaly?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Francesca Tosolini</a> on <a href="https://unsplash.com/s/photos/room?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 방에 있어요",
+        qaudio: "3.mp3",
+        aaudio: "3.mp3",
       },
       {
         prompt: "What is this? (refrigerator)",
@@ -332,6 +421,8 @@ const library = {
         alt: "Picture of a fridge",
         credit: `<span>Photo by <a href="https://unsplash.com/@giuliahetherington?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Giulia Hetherington</a> on <a href="https://unsplash.com/s/photos/refrigerator?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "이것은 냉장고예요",
+        qaudio: "4.mp3",
+        aaudio: "4.mp3",
       },
       {
         prompt: "Where is the puppy? (in the house)",
@@ -339,6 +430,8 @@ const library = {
         alt: "Picture of a puppy.",
         credit: `<span>Photo by <a href="https://unsplash.com/@picsea?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Picsea</a> on <a href="https://unsplash.com/s/photos/puppy-in-house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "강아지는 집에 있어요",
+        qaudio: "5.mp3",
+        aaudio: "5.mp3",
       },
       {
         prompt: "The mouse is on top of a book.  Where is the mouse?",
@@ -346,6 +439,8 @@ const library = {
         alt: "Picture of a mouse.",
         credit: `<span>Photo by <a href="https://unsplash.com/@yunu_dinata?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Yunu Dinata</a> on <a href="https://unsplash.com/s/photos/mouse?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "쥐는 책 위에 있어요",
+        qaudio: "6.mp3",
+        aaudio: "6.mp3",
       },
       {
         prompt: "What do you have? (phone)",
@@ -353,6 +448,8 @@ const library = {
         alt: "Picture of a phone.",
         credit: `<span>Photo by <a href="https://unsplash.com/@quinoal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Quino Al</a> on <a href="https://unsplash.com/s/photos/phone?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 전화기가 있어요",
+        qaudio: "7.mp3",
+        aaudio: "7.mp3",
       },
       {
         prompt: "What do you have? (coffee)",
@@ -360,6 +457,8 @@ const library = {
         alt: "Picture of coffee.",
         credit: `<span>Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Nathan Dumlao</a> on <a href="https://unsplash.com/s/photos/coffee?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 커피가 있어요",
+        qaudio: "8.mp3",
+        aaudio: "8.mp3",
       },
       {
         prompt: "What is this? (television)",
@@ -367,6 +466,8 @@ const library = {
         alt: "Picture of a television.",
         credit: `<span>Photo by <a href="https://unsplash.com/@sveninho?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sven Scheuermeier</a> on <a href="https://unsplash.com/s/photos/television?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "이것은 텔레비전이에요",
+        qaudio: "9.mp3",
+        aaudio: "9.mp3",
       },
       {
         prompt: "Is USA a country? ",
@@ -374,6 +475,8 @@ const library = {
         alt: "Picture of a the usa.",
         credit: `<span>Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clay Banks</a> on <a href="https://unsplash.com/s/photos/map-usa?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 미국은 나라예요",
+        qaudio: "10.mp3",
+        aaudio: "10.mp3",
       },
       {
         prompt: "Where are you? (in front of the hotel) What is that? (a building)",
@@ -381,6 +484,8 @@ const library = {
         alt: "Picture of a hotel.",
         credit: `<span>Photo by <a href="https://unsplash.com/@martenbjork?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marten Bjork</a> on <a href="https://unsplash.com/s/photos/hotel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 호텔 압에 있어요. 저것은 건물이에요",
+        qaudio: "11.mp3",
+        aaudio: "11.mp3",
       },
       {
         prompt: "Are you here yet?",
@@ -388,6 +493,8 @@ const library = {
         alt: "Picture of a phone.",
         credit: `<span>Photo by <a href="https://unsplash.com/@quinoal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Quino Al</a> on <a href="https://unsplash.com/s/photos/phone?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 저는 여기 있어요",
+        qaudio: "12.mp3",
+        aaudio: "12.mp3",
       },
     ],
     "1-3.1": [
@@ -445,70 +552,70 @@ const library = {
         image: "womaninweddingdress.jpg",
         alt: "Woman in a wedding dress",
         credit: `<span>Photo by <a href="https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">CHUTTERSNAP</a> on <a href="https://unsplash.com/s/photos/beautiful-person?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 저는 아름다워요",
+        answer: "저는 아름다워요",
       },
       {
         prompt: "Are you big or small? (small)",
         image: "sleepingbaby.jpg",
         alt: "Picture of a sleeping baby",
         credit: `<span>Photo by <a href="https://unsplash.com/@peter_oslanec?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Peter Oslanec</a> on <a href="https://unsplash.com/s/photos/baby?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 저는 작아요",
+        answer: "저는 작아요",
       },
       {
         prompt: "Is this bus big or small? (big)",
         image: "infrontofschool.jpg",
         alt: "Picture of a big bus",
         credit: `<span>Photo by <a href="https://unsplash.com/@sapegin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Artem Sapegin</a> on <a href="https://unsplash.com/s/photos/in-front-of-school?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 이 버스는 커요",
+        answer: "이 버스는 커요",
       },
       {
-        prompt: "Is the hospital new or old? (new)",
+        prompt: "Is that hospital new or old? (new)",
         image: "hospital.jpg",
         alt: "Picture of a a hospital",
         credit: `<span>Photo by <a href="https://unsplash.com/@daanstevens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daan Stevens</a> on <a href="https://unsplash.com/s/photos/hospital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 그 병원은 새로워요",
+        answer: "그 병원은 새로워요",
       },
       {
-        prompt: "Is the park really small or normal sized? (really small)",
+        prompt: "Is this park really small or normal sized? (really small)",
         image: "smallpark.jpg",
         alt: "Picture of a small park",
         credit: `<span>Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/s/photos/small-park?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 이 공원은 매우 작아요",
+        answer: "이 공원은 매우 작아요",
       },
       {
         prompt: "Is that person fat or thin? (fat)",
         image: "fatperson.jpg",
         alt: "Picture of 3 plus size woman.",
         credit: `<span>Photo by <a href="https://unsplash.com/@canweallgo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AllGo - An App For Plus Size People</a> on <a href="https://unsplash.com/s/photos/fat-person?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 그 사람은 뚱뚱해요",
+        answer: "그 사람은 뚱뚱해요",
       },
       {
         prompt: "Is the teacher’s car big or small? (big) What do you want? (the teacher’s car)",
         image: "thatisacar.jpg",
         alt: "Picture of a car.",
         credit: `<span>Photo by <a href="https://unsplash.com/@eduardoflorespe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Eduardo Flores</a> on <a href="https://unsplash.com/s/photos/car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 선생님의 차는 커요. 저는 선생님의 차를 원해요",
+        answer: "선생님의 차는 커요. 저는 선생님의 차를 원해요",
       },
       {
         prompt: "Is your finger long or short? (long)",
         image: "longfinger.jpg",
         alt: "Picture of a long finger.",
         credit: `<span>Photo by <a href="https://unsplash.com/@randominstitute?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Random Institute</a> on <a href="https://unsplash.com/s/photos/finger?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 저의 손가락은 길어요",
+        answer: "저의 손가락은 길어요",
       },
       {
         prompt: "Are that woman’s eyes beautiful or ugly?) (beautiful)",
         image: "beautifuleyes.jpg",
         alt: "Picture of a woman's beautiful eyes.",
         credit: `<span>Photo by <a href="https://unsplash.com/@alexandruz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alexandru Zdrobău</a> on <a href="https://unsplash.com/s/photos/eyes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 그 여자의 눈은 아름다워요",
+        answer: "그 여자의 눈은 아름다워요",
       },
       {
         prompt: "Who do you meet? (My friend)",
         image: "friendsclapping.jpg",
         alt: "Picture friends clapping hands.",
         credit: `<span>Photo by <a href="https://unsplash.com/@jtylernix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tyler Nix</a> on <a href="https://unsplash.com/s/photos/friend?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 저는 저의 친구를 만나요) or 저는 친구를 만나요",
+        answer: "저는 저의 친구를 만나요 or 저는 친구를 만나요",
       },
       {
         prompt: "Is this food good/okay? (Yes…) Do you like this food or not? (Yes…)",
@@ -522,7 +629,7 @@ const library = {
         image: "iamateacher.jpg",
         alt: "Picture of woman teacher.",
         credit: `<span>Photo by <a href="https://unsplash.com/@windows?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Windows</a> on <a href="https://unsplash.com/s/photos/teacher-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
-        answer: "네, 그 선생님은 좋아요.  네, 저는 그 선생님을 좋아해요. 네, 선생님은 우리를 좋아해요",
+        answer: "그 선생님은 좋아요.  네, 저는 그 선생님을 좋아해요. 네, 선생님은 우리를 좋아해요",
       },
       {
         prompt: "Is this school good/okay? (Yes…)",
@@ -587,7 +694,7 @@ const library = {
         image: "fatperson.jpg",
         alt: "Picture of 3 plus size woman.",
         credit: `<span>Photo by <a href="https://unsplash.com/@canweallgo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AllGo - An App For Plus Size People</a> on <a href="https://unsplash.com/s/photos/fat-person?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
-        answer: "네, 팔은 뚱뚱헤요. 네, 배는 뚱뚱해요",
+        answer: "네, 팔은 뚱뚱해요. 네, 배는 뚱뚱해요",
       },
       {
         prompt: "Is your mouth small? (Yes…)",
@@ -804,7 +911,7 @@ const library = {
         answer: "녜, 아이는 자전거가 있어요",
       },
       {
-        prompt: "Does the son practice English? (Yes…)",
+        prompt: "Does your son practice English? (Yes…)",
         image: "opendiary.jpg",
         alt: "open diary.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@dtravisphd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">David Travis</a> on <a href="https://unsplash.com/s/photos/english-writing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
@@ -878,7 +985,7 @@ const library = {
         image: "childdancing.jpg",
         alt: "child dancing.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@monroefiles?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gabby Orcutt</a> on <a href="https://unsplash.com/s/photos/child-dancing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
-        answer: "네, 지금, 이 아이도 춤춰요",
+        answer: "네, 지금 이 아이도 춤춰요",
       },
       {
         prompt: "Is the taste delicious? (Yes…)",
@@ -892,7 +999,7 @@ const library = {
         image: "window.jpg",
         alt: "Picture of a window.",
         credit: `<span>Photo by <a href="https://unsplash.com/@danielle_dolson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Danielle Dolson</a> on <a href="https://unsplash.com/s/photos/window?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
-        answer: "손는 창문을 열어요",
+        answer: "손은 창문을 열어요",
       },
       {
         prompt: "Do you learn Korean now?",

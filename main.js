@@ -30,6 +30,8 @@ function calculate (sectionVar) {
   let prompt = document.getElementById("prompt");
   let pic = document.getElementById("pic");
   let answer = document.getElementById("hideAnswersLine");
+  let qSound = document.getElementById("qSoundLine");
+  let aSound = document.getElementById("aSoundLine");
   let credit = document.getElementById("credit");
   
 
@@ -38,6 +40,8 @@ function calculate (sectionVar) {
   let current_image = library[secNum][randompic].image;
   let current_alt = library[secNum][randompic].alt;
   let current_answer = library[secNum][randompic].answer;
+  let current_qSound = library[secNum][randompic].qaudio;
+  let current_aSound = library[secNum][randompic].aaudio;
   let current_credit = library[secNum][randompic].credit;
 
   //..............................................insert card info into html elements
@@ -45,6 +49,8 @@ function calculate (sectionVar) {
   pic.src = "images/" + current_image;
   pic.alt = current_alt;
   answer.innerHTML = current_answer;
+  qSound.src = "audio/questions/" + secNum + "/" + current_qSound; 
+  aSound.src = "audio/answers/" + secNum + "/" + current_aSound; 
   credit.innerHTML = current_credit;
 };
 
@@ -64,9 +70,9 @@ function chapSentencesLine () {
 
 function hideAnswersLine() {
   // Get the checkbox
-  var checkBox = document.getElementById("myCheck");
+  let checkBox = document.getElementById("myCheck");
   // Get the output text
-  var text = document.getElementById("hideAnswersLine");
+  let text = document.getElementById("hideAnswersLine");
 
   // If the checkbox is checked, display the output text
   if (checkBox.checked == true){
@@ -75,6 +81,67 @@ function hideAnswersLine() {
     text.style.display = "none";
   }
 }
+
+//--------------------------------------------------------------------Play one time sound section------------------------------------
+function playKnownAnswer () {
+  let plainAudioFile = new Audio();
+  let aAudio = document.getElementById("aSoundLine").src;
+  console.log(aAudio);
+  plainAudioFile.src = aAudio;
+  plainAudioFile.play();
+}
+//-------------------write rest of sound for buttons...I might have to make more audio files for both button and automatic......
+
+function playKnownQuestion () {
+  let plainAudioFile = new Audio();
+  let qAudio = document.getElementById("qSoundLine").src;
+  console.log(qAudio);
+  plainAudioFile.src = qAudio;
+  plainAudioFile.play();
+}
+
+
+//--------------------------------------------------------------------audio automatic sound section-----------------------------------
+function muteQuestionsLine() {
+  let qaudio = document.getElementById("qSoundLine");
+    qaudio.autoplay = true;
+}
+
+function muteAnswersLine() {
+  let aaudio = document.getElementById("aSoundLine");
+  aaudio.autoplay = true;
+}
+
+//------------------------------------------------------radio button sound options---------------
+function selectSound () {
+  const soundselections = document.querySelectorAll('input[name="audio"]');
+  let selectedSound;
+  for (const soundselection of soundselections) {
+    if (soundselection.checked) {
+      selectedSound = soundselection.value;
+      break;
+    }
+  }
+  let hidnQnaudio = document.getElementById("qSoundLine");
+  let hidnAnaudio = document.getElementById("aSoundLine");
+
+  hidnQnaudio.autoplay = false;
+  hidnAnaudio.autoplay = false;
+
+  if (selectedSound == "aAnswers") {
+    muteAnswersLine();
+  } else if (selectedSound == "aQuestions") {
+    muteQuestionsLine();
+  } else {
+    hidnQnaudio.autoplay = false;
+    hidnAnaudio.autoplay = false;
+  }
+}
+const clickAutomaticAnswer = document.getElementById("aAudioCheck").addEventListener("click", selectSound); 
+const clickAutomaticQuestion = document.getElementById("qAudioCheck").addEventListener("click", selectSound); 
+const clickAutomaticNoAudio = document.getElementById("noAudio").addEventListener("click", selectSound); 
+
+//--------------------------------------------------------master sentence function------------------
 
 function masterSentencesLine () {
   
@@ -95,6 +162,8 @@ function masterSentencesLine () {
     let prompt = document.getElementById("prompt");
     let pic = document.getElementById("pic");
     let answer = document.getElementById("hideAnswersLine");
+    let qSound = document.getElementById("qSoundLine");
+    let aSound = document.getElementById("aSoundLine");
     let credit = document.getElementById("credit");
 
 //  ......................................................get card info
@@ -102,13 +171,18 @@ function masterSentencesLine () {
     let current_image = library[secNum][randompic].image;
     let current_alt = library[secNum][randompic].alt;
     let current_answer = library[secNum][randompic].answer;
+    let current_qSound = library[secNum][randompic].qaudio;
+    let current_aSound = library[secNum][randompic].aaudio;
     let current_credit = library[secNum][randompic].credit;
+
 
     //..............................................insert card info into html elements
     prompt.innerHTML = current_prompt;
     pic.src = "images/" + current_image;
     pic.alt = current_alt;
     answer.innerHTML = current_answer;
+    qSound.src = "audio/questions/" + secNum + "/" + current_qSound; 
+    aSound.src = "audio/answers/" + secNum + "/" + current_aSound; 
     credit.innerHTML = current_credit;
   
 }
@@ -116,14 +190,12 @@ function masterSentencesLine () {
 //----------------------------------------------------------------Selecting unit and chapter---------------------------------------------------
 let unitElm = document.getElementById("unit");
 let chapElm = document.getElementById("Lesson");
-// const megamenudropdown = document.getElementsByClassName("dropdown-content");
 
 var getChapter = function(event) {
   unitNum = event.target.dataset.unit;
   chapNum = event.target.dataset.chapter;
   unitElm.innerHTML = unitNum;
   chapElm.innerHTML = chapNum;
-  // megamenudropdown[0].style.backgroundColor = #333;
   if (unitNum !== 1 && chapNum !== 1) {
     let mastersentencesSect = document.getElementById("masterSentences");
     mastersentencesSect.style.display = "block";
@@ -137,6 +209,14 @@ const unknownSentencesbutton = document.getElementById("unknownSentencesbutton")
 const chapSentencesbutton = document.getElementById("chapSentencesbutton").addEventListener("click", chapSentencesLine); 
 const masterSentencesbutton = document.getElementById("masterSentencesbutton").addEventListener("click", masterSentencesLine); 
 const hideAnswers = document.getElementById("myCheck").addEventListener("click", hideAnswersLine); 
+const knownSentencesAnswer = document.getElementById("knownSentencesAnswer").addEventListener("click", playKnownAnswer); 
+const knownSentencesQuestion = document.getElementById("knownSentencesQuestion").addEventListener("click", playKnownQuestion); 
+const unknownSentencesAnswer = document.getElementById("unknownSentencesAnswer").addEventListener("click", playKnownAnswer); 
+const unknownSentencesQuestion = document.getElementById("unknownSentencesQuestion").addEventListener("click", playKnownQuestion); 
+const chapSentencesAnswer = document.getElementById("chapSentencesAnswer").addEventListener("click", playKnownAnswer); 
+const chapSentencesQuestion = document.getElementById("chapSentencesQuestion").addEventListener("click", playKnownQuestion); 
+const masterSentencesAnswer = document.getElementById("masterSentencesAnswer").addEventListener("click", playKnownAnswer); 
+const masterSentencesQuestion = document.getElementById("masterSentencesQuestion").addEventListener("click", playKnownQuestion); 
 
 //--------------------------------------------------------------add event listeners to mega list
 const menubutton = document.getElementsByClassName ("lesson-selector");
