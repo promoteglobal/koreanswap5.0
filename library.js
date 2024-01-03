@@ -713,8 +713,8 @@ const library = {
         alt: "Picture of a plane landing.",
         credit: `<span>Photo by <a href="https://unsplash.com/@zhpix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Pascal Meier</a> on <a href="https://unsplash.com/s/photos/airport?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 저는 공항에 있어요",
-        qaudio: "testQ.dat.mp3",
-        aaudio: "testa.dat.mp3",
+        qaudio: "1.mp3",
+        aaudio: "1.mp3",
       },
       {
         prompt: "Is your head big? (Yes…)",
@@ -722,6 +722,8 @@ const library = {
         alt: "Picture of a big headed baby",
         credit: `<span>Photo by <a href="https://unsplash.com/@spanic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Damir Spanic</a> on <a href="https://unsplash.com/s/photos/big-head?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 저의 머리는 커요",
+        qaudio: "2.mp3",
+        aaudio: "2.mp3",
       },
       {
         prompt: "Is your leg long? (Yes…)",
@@ -729,6 +731,8 @@ const library = {
         alt: "Picture of a woman with long legs.",
         credit: `<span>Photo by <a href="https://unsplash.com/@joanna_nix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Joanna Nix-Walkup</a> on <a href="https://unsplash.com/s/photos/long-legs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 저의 다리는 길어요",
+        qaudio: "3.mp3",
+        aaudio: "3.mp3",
       },
       {
         prompt: "Is your ear beautiful? (Yes…)",
@@ -736,6 +740,8 @@ const library = {
         alt: "Picture of a woman's ears.",
         credit: `<span>Photo by <a href="https://unsplash.com/@fideletty?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Etty Fidele</a> on <a href="https://unsplash.com/s/photos/pretty-ears?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 귀는 아름다워요",
+        qaudio: "4.mp3",
+        aaudio: "4.mp3",
       },
       {
         prompt: "Is your arm fat? (Yes…) Is your stomach fat? (Yes…)",
@@ -743,6 +749,8 @@ const library = {
         alt: "Picture of 3 plus size woman.",
         credit: `<span>Photo by <a href="https://unsplash.com/@canweallgo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AllGo - An App For Plus Size People</a> on <a href="https://unsplash.com/s/photos/fat-person?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 팔은 뚱뚱해요. 네, 배는 뚱뚱해요",
+        qaudio: "5.mp3",
+        aaudio: "5.mp3",
       },
       {
         prompt: "Is your mouth small? (Yes…)",
@@ -750,6 +758,8 @@ const library = {
         alt: "Picture of a small mouth.",
         credit: `<span>Photo by <a href="https://unsplash.com/@inagarbe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ina Garbé</a> on <a href="https://unsplash.com/s/photos/small-mouth?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 입은 작아요",
+        qaudio: "6.mp3",
+        aaudio: "6.mp3",
       },
       {
         prompt: "What are you doing? (eating food). Is this food cheap? (yes…)",
@@ -757,6 +767,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 음식을 먹어요. 네, 이 음식은 싸요",
+        qaudio: "7.mp3",
+        aaudio: "7.mp3",
       },
       {
         prompt: "Where do you go? (home(house))",
@@ -764,6 +776,8 @@ const library = {
         alt: "Picture of a house.",
         credit: `<span>Photo by <a href="https://unsplash.com/@jacquesbopp?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jacques Bopp</a> on <a href="https://unsplash.com/s/photos/house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 집에 가요",
+        qaudio: "8.mp3",
+        aaudio: "8.mp3",
       },
       {
         prompt: "Is this building old? (Yes…)",
@@ -771,6 +785,8 @@ const library = {
         alt: "Picture of a castle.",
         credit: `<span>Photo by <a href="https://unsplash.com/@waldemarbrandt67w?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Waldemar Brandt</a> on <a href="https://unsplash.com/s/photos/old-building?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 이 건물은 낡아요",
+        qaudio: "9.mp3",
+        aaudio: "9.mp3",
       },
       {
         prompt: "Is this boat really expensive? (yes…) Do you have a boat? (yes..)",
@@ -778,6 +794,8 @@ const library = {
         alt: "Picture of a boat.",
         credit: `<span>Photo by <a href="https://unsplash.com/@gautamkrishnan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gautam Krishnan</a> on <a href="https://unsplash.com/s/photos/boat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 이 배는 아주 비싸요. 네, 저는 배가 있어요",
+        qaudio: "10.mp3",
+        aaudio: "10.mp3",
       },
       {
         prompt: "Is the hospital a building? (Yes…)",
@@ -785,6 +803,8 @@ const library = {
         alt: "Picture of a hospital.",
         credit: `<span>Photo by <a href="https://unsplash.com/@daanstevens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daan Stevens</a> on <a href="https://unsplash.com/s/photos/hospital?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 병원은 건물이에요",
+        qaudio: "11.mp3",
+        aaudio: "11.mp3",
       },
     ],
     "1-4.1":[
@@ -794,6 +814,8 @@ const library = {
         alt: "person Waving Goodbye",
         credit: `<span>Photo by <a href="https://unsplash.com/@typebymayank?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mayank Baranwal</a> on <a href="https://unsplash.com/s/photos/hello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "안녕히 가세요  안녕히 계세요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "When you meet someone for the first time, it’s good to say things like (Hello, Nice to meet you) (What is your name?) (Where are you from?)",
@@ -801,6 +823,8 @@ const library = {
         alt: "Picture friends clapping hands.",
         credit: `<span>Photo by <a href="https://unsplash.com/@jtylernix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tyler Nix</a> on <a href="https://unsplash.com/s/photos/friend?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "만나서 반갑습니다 / 이름이 뭐예요? / 어디에서 왔어요?",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "You need to get someone’s attention you say (Excuse me)",
@@ -808,6 +832,8 @@ const library = {
         alt: "person Waving Goodbye",
         credit: `<span>Photo by <a href="https://unsplash.com/@typebymayank?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mayank Baranwal</a> on <a href="https://unsplash.com/s/photos/hello?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "실례합니다",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "You accidentally bump into someone you say (Sorry)",
@@ -815,6 +841,8 @@ const library = {
         alt: "A muscle guy looks distressed.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@spanic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Damir Spanic</a> on <a href="https://unsplash.com/s/photos/sorry?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "미안합니다",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "이름이 뭐예요?  (My name is _______)     어디에서 왔어요 (I’m from _________)",
@@ -822,6 +850,8 @@ const library = {
          alt: "Picture of a name on a name tag",
          credit: `<span>Photo by <a href="https://unsplash.com/@_blahblake?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Blake Barlow</a> on <a href="https://unsplash.com/s/photos/name-tag?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "저의 이름은 ______이에요     저는 _______에서 왔어요",
+         qaudio: ".mp3",
+         aaudio: ".mp3",
       },
       {
         prompt: "Is the food expensive? (Yes…)     Do you eat expensive food? (Yes…)   Do you like expensive food? (Yes…)  Is expensive food delicious? (Yes…)   What do you eat? (delicious food)   Do you eat a lot of food? (Yes….)  Is there a lot of food? (Yes…)",
@@ -829,6 +859,8 @@ const library = {
         alt: "Picture of expensive food",
         credit: `<span>Photo by <a href="https://unsplash.com/@louishansel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Louis Hansel @shotsoflouis</a> on <a href="https://unsplash.com/s/photos/expensive-food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "음식은 비싸요. 저는 비싼 음식을 먹어요. 저는 비싼 음식을 좋아해요. 비싼 음식은 맛있어요. 저는 맛있는 음식을 먹어요. 저는 많은 음식을 먹어요. 음식이 많아요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Where do you go? (to the small house)  Is the house small? (Yes..)",
@@ -836,6 +868,8 @@ const library = {
         alt: "Pic of small house",
         credit: `<span>Photo by <a href="https://unsplash.com/@heftiba?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Toa Heftiba</a> on <a href="https://unsplash.com/s/photos/small-house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 작은 집에 가요.  그 집은 작아요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "What do you want? (a big car) Is this car big? (Yes…)",
@@ -843,6 +877,8 @@ const library = {
         alt: "Picture of a old big car",
         credit: `<span>Photo by <a href="https://unsplash.com/@markusspiske?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Spiske</a> on <a href="https://unsplash.com/s/photos/big-car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 큰 차를 원해요. 이 차는 커요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Who do you meet? (a handsome man)",
@@ -850,6 +886,8 @@ const library = {
         alt: "a handsome man",
         credit: `<span>Photo by <a href="https://unsplash.com/@alexiby?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alex Iby</a> on <a href="https://unsplash.com/s/photos/handsome-man?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 잘생긴 남자를 만나요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "What do you have? (a lot of money)",
@@ -857,6 +895,8 @@ const library = {
         alt: "paper money",
         credit: `<span>Photo by <a href="https://unsplash.com/@ninjason?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jason Leung</a> on <a href="https://unsplash.com/s/photos/money?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 많은 돈이 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Who do you meet? (a fat student)",
@@ -864,6 +904,8 @@ const library = {
         alt: "Picture of 3 plus size woman.",
         credit: `<span>Photo by <a href="https://unsplash.com/@canweallgo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AllGo - An App For Plus Size People</a> on <a href="https://unsplash.com/s/photos/fat-person?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 뚱뚱한 학생을 만나요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "What does the man eat? (food)",
@@ -871,6 +913,8 @@ const library = {
         alt: "Man eating food.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@sanderdalhuisen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sander Dalhuisen</a> on <a href="https://unsplash.com/s/photos/man-eating-food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "남자는 음식을 먹어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "The happy girl is inside what? (the small car)",
@@ -878,6 +922,8 @@ const library = {
         alt: "girl inside car.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@wendellfernandes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Wendell Fernandes</a> on <a href="https://unsplash.com/s/photos/girl-inside-car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "행복한 여자는 작은 차 안에 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "That man is what? (a funny man)",
@@ -885,6 +931,8 @@ const library = {
         alt: "man laughing.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@harrycunnningham1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Harry Cunningham</a> on <a href="https://unsplash.com/s/photos/funny-man?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "그 남자는 재미있는 남자예요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "I have a lot of what? ( wives)",
@@ -892,6 +940,8 @@ const library = {
         alt: "brides.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@dre0316?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Andre Hunter</a> on <a href="https://unsplash.com/s/photos/brides?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 많은 아내가 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "There is a lot of what? (people)",
@@ -899,6 +949,8 @@ const library = {
         alt: "people.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@derstudi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Timon Studler</a> on <a href="https://unsplash.com/s/photos/people?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "사람이 많아요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Do you too speak Korean? (Yes…) (In addition to other people)",
@@ -906,6 +958,8 @@ const library = {
         alt: "korean word dream.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@insungyoon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">insung yoon</a> on <a href="https://unsplash.com/s/photos/korean-words?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저도 한국어를 말해요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Do you speak Korean too? (Yes…) (in addition to other languages)",
@@ -913,6 +967,8 @@ const library = {
         alt: "korean word dream.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@insungyoon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">insung yoon</a> on <a href="https://unsplash.com/s/photos/korean-words?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 한국어도 말해요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Do you too eat apples? (Yes…) (In addition to other people)",
@@ -920,6 +976,8 @@ const library = {
         alt: "person with apples.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@missnjc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Natalie Grainger</a> on <a href="https://unsplash.com/s/photos/apples?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저도 사과를 먹어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Do you eat apples too? (Yes…) (in addition to other apples)",
@@ -927,6 +985,8 @@ const library = {
         alt: "person with apples.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@missnjc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Natalie Grainger</a> on <a href="https://unsplash.com/s/photos/apples?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 사과도 먹어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "You too know that? (Yes..)",
@@ -934,6 +994,8 @@ const library = {
         alt: "Man holding a light bulb",
         credit: `<span>Photo by <a href="https://unsplash.com/@pavement_special?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Riccardo Annandale</a> on <a href="https://unsplash.com/s/photos/light-bulb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: " 저도 그것을 알아요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "You too are tired? (Yes..)",
@@ -941,6 +1003,8 @@ const library = {
         alt: "book over face.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@tonny_tran?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tony Tran</a> on <a href="https://unsplash.com/s/photos/tired?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: " 저도 피곤해요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Is your daughter happy too? (Yes…)",
@@ -948,6 +1012,8 @@ const library = {
         alt: "girl inside car.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@wendellfernandes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Wendell Fernandes</a> on <a href="https://unsplash.com/s/photos/girl-inside-car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저의 딸도 행복해요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
     ],
     "1-4.2":[
@@ -957,6 +1023,8 @@ const library = {
         alt: "child on bicycle.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@liz99?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">童 彤</a> on <a href="https://unsplash.com/s/photos/child-on-bicycle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "녜, 아이는 자전거가 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Does your son practice English? (Yes…)",
@@ -964,6 +1032,8 @@ const library = {
         alt: "open diary.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@dtravisphd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">David Travis</a> on <a href="https://unsplash.com/s/photos/english-writing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 아들는 영어를 연습해요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Where is the sad father? (in the steet)거리",
@@ -971,6 +1041,8 @@ const library = {
         alt: "man in road.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@jeremybishop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeremy Bishop</a> on <a href="https://unsplash.com/s/photos/man-in-street?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "슬픈 아버지는 거리에 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Is that an ugly taxi? (Yes…)",
@@ -978,6 +1050,8 @@ const library = {
         alt: "ugly taxi.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@huefnerdesign?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Hüfner</a> on <a href="https://unsplash.com/s/photos/big-car?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 저것은 못생긴 택시예요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Is the bus stop in the street? (yes…)  길",
@@ -985,6 +1059,8 @@ const library = {
         alt: "bus stop in street.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@northwoodn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Li Lin</a> on <a href="https://unsplash.com/s/photos/bus-stop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 버스 정류장은 길에 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Does the mother have a different letter? (Yes…)",
@@ -992,6 +1068,8 @@ const library = {
         alt: "a letter.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@waros?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Wendy Aros-Routman</a> on <a href="https://unsplash.com/s/photos/letter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 어머니는 다른 편지가 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Does the husband have water on the train? (Yes…)",
@@ -999,6 +1077,8 @@ const library = {
         alt: "people on train.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@francesco_ungaro?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Francesco Ungaro</a> on <a href="https://unsplash.com/s/photos/man-in-train?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 남편는 열차에 물이 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Is breakfast delicious? (yes…) Is the meal delicious? (Yes…) ",
@@ -1006,6 +1086,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 아침식사는 맛있어요.  네, 식사는 맛있어요. ",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Does the cat come to the train station?",
@@ -1013,6 +1095,8 @@ const library = {
         alt: "cat on faint train tracks.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@miklevasilyev?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">MIKHAIL VASILYEV</a> on <a href="https://unsplash.com/s/photos/cat-at-train-station?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 고양이는 역에 와요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Does the child walk? (yes)",
@@ -1020,6 +1104,8 @@ const library = {
         alt: "child walking.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@jxk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jan Kopřiva</a> on <a href="https://unsplash.com/s/photos/child-walking?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 아이는 걸어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Are you there or here? (there)",
@@ -1027,6 +1113,8 @@ const library = {
         alt: "person pointing there.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@minusculemarie?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Marie-Michèle Bouchard</a> on <a href="https://unsplash.com/s/photos/there?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "저는 거기 있어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Does this child too, dance now? (yes..)",
@@ -1034,6 +1122,8 @@ const library = {
         alt: "child dancing.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@monroefiles?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gabby Orcutt</a> on <a href="https://unsplash.com/s/photos/child-dancing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "네, 지금 이 아이도 춤춰요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Is the taste delicious? (Yes…)",
@@ -1041,6 +1131,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 맛이 맛있어요.",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "What opens windows? (Hands…)",
@@ -1048,6 +1140,8 @@ const library = {
         alt: "Picture of a window.",
         credit: `<span>Photo by <a href="https://unsplash.com/@danielle_dolson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Danielle Dolson</a> on <a href="https://unsplash.com/s/photos/window?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "손은 창문을 열어요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
       {
         prompt: "Do you learn Korean now?",
@@ -1055,6 +1149,8 @@ const library = {
         alt: "Picture of Korean writing",
         credit: `<span>Photo by <a href="https://unsplash.com/@tsuyuri104?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tsuyuri Hara</a> on <a href="https://unsplash.com/s/photos/korean?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 저는 한국어를 지금 배워요",
+        qaudio: ".mp3",
+        aaudio: ".mp3",
       },
     ],
     "1-5.1":[
