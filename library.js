@@ -351,7 +351,7 @@ const library = {
       },
       {
         prompt: "Where is the cat? (under the chair)",
-        image: "catunderchair.jpg",
+        image: "cat-under-chair.jpeg",
         alt: "Picture of a chair with words cat under the chair",
         credit: `<span>Photo by <a href="https://unsplash.com/@jontyson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jon Tyson</a> on <a href="https://unsplash.com/s/photos/under-a-chair?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "고양이는 의자 밑에 있어요",
