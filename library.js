@@ -1351,6 +1351,8 @@ const library = {
         alt: "man with knife.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@kimdonkey?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Manki Kim</a> on <a href="https://unsplash.com/s/photos/old-man-with-knife?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 그 아저씨는 위험하다",
+        qaudio: "1.mp3",
+        aaudio: "1.mp3",
       },
       {
         prompt: "Does your younger sister have glasses? (yes..)",
@@ -1358,6 +1360,8 @@ const library = {
         alt: "girl with glasses.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@ilienerwise?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Max Ilienerwise</a> on <a href="https://unsplash.com/s/photos/girl-with-classes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 저의 여동생은 안경이 있어요",
+        qaudio: "2.mp3",
+        aaudio: "2.mp3",
       },
       {
         prompt: "Does your younger brother have a secret? (Yes..)",
@@ -1365,6 +1369,8 @@ const library = {
         alt: "guy with secret.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@tinaflour?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kristina Flour</a> on <a href="https://unsplash.com/s/photos/guy-with-secret?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 저의 남동생은 비밀이 있어요",
+        qaudio: "3.mp3",
+        aaudio: "3.mp3",
       },
       {
         prompt: "Does your aunt (on your mother’s side) have a picture? (yes…)",
@@ -1372,6 +1378,8 @@ const library = {
         alt: "girl taking photo.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@aiony?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aiony Haust</a> on <a href="https://unsplash.com/s/photos/girl-with-photo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 저의 이모는 사긴이 있어요",
+        qaudio: "4.mp3",
+        aaudio: "4.mp3",
       },
       {
         prompt: "Does the duck have a tail?(yes…)",
@@ -1379,6 +1387,8 @@ const library = {
         alt: "duck.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@bruthethe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Bruno Thethe</a> on <a href="https://unsplash.com/s/photos/duck?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 오리는 꼬리가 있어요",
+        qaudio: "5.mp3",
+        aaudio: "5.mp3",
       },
       {
         prompt: "Does your aunt (on your father’s side) expect a picture? (Yes..)",
@@ -1386,6 +1396,8 @@ const library = {
         alt: "camera.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@patuphotos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Patrick</a> on <a href="https://unsplash.com/s/photos/camera?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 저의 고모는 사진을 기대해요",
+        qaudio: "6.mp3",
+        aaudio: "6.mp3",
       },
       {
         prompt: "Is the rain boring? (yes..Diary form). Does your older sister (of sister) like the rain? (no…)",
@@ -1393,6 +1405,8 @@ const library = {
         alt: "rain.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@anant90?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anant Jain</a> on <a href="https://unsplash.com/s/photos/rain?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 비는 지루하다. 아니, 나의 언니는 비를 싫어해요",
+        qaudio: "7.mp3",
+        aaudio: "7.mp3",
       },
       {
         prompt: "Does your older brother (of brother) have a stove?",
@@ -1400,6 +1414,8 @@ const library = {
         alt: "stove.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@ghosttrooper?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brandon Cormier</a> on <a href="https://unsplash.com/s/photos/stove?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 형은 가스 레인지가 있어요",
+        qaudio: "8.mp3",
+        aaudio: "8.mp3",
       },
       {
         prompt: "Did your younger sibling leave? (yes..Diary form)",
@@ -1407,6 +1423,8 @@ const library = {
         alt: "person leaving",
         credit: `<span>Photo by <a href="https://unsplash.com/@mantashesthaven?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mantas Hesthaven</a> on <a href="https://unsplash.com/s/photos/person-leaving?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 나의 동생은 떠났다",
+        qaudio: "9.mp3",
+        aaudio: "9.mp3",
       },
       {
         prompt: "Is your older sister (of brother) far away? (yes…Diary form)",
@@ -1414,6 +1432,8 @@ const library = {
         alt: "person far away.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@claybanks?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Clay Banks</a> on <a href="https://unsplash.com/s/photos/person-far-away?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 누나는 멀다",
+        qaudio: "10.mp3",
+        aaudio: "10.mp3",
       },
     ],
     "1-6.1":[
