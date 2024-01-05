@@ -1160,6 +1160,8 @@ const library = {
         alt: "Picture friends clapping hands.",
         credit: `<span>Photo by <a href="https://unsplash.com/@jtylernix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tyler Nix</a> on <a href="https://unsplash.com/s/photos/friend?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 친구를 만난다. 나는 친구를 만났다 ",
+        qaudio: "1.mp3",
+        aaudio: "1.mp3",
       },
       {
         prompt: "What do you understand? (that- Diary form)",
@@ -1167,6 +1169,8 @@ const library = {
         alt: "Man holding a light bulb",
         credit: `<span>Photo by <a href="https://unsplash.com/@pavement_special?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Riccardo Annandale</a> on <a href="https://unsplash.com/s/photos/light-bulb?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 그것을 이해한다 ",
+        qaudio: "2.mp3",
+        aaudio: "2.mp3",
       },
       {
         prompt: "What do you learn? (Korean-Diary form). Will you learn? (yes...-Diary form  - uncommon future form) What did you study? (Korean-Diary form),  What did you study? (Korean-Diary form (where  하 and 여 are not merged to formed 해)",
@@ -1174,6 +1178,8 @@ const library = {
         alt: "Picture of Korean writing",
         credit: `<span>Photo by <a href="https://unsplash.com/@tsuyuri104?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tsuyuri Hara</a> on <a href="https://unsplash.com/s/photos/korean?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 한국어를 배운다.  나는 배우겠다.  나는 한국어를 공부했다.  나는 한국어를 공부하였다  ",
+        qaudio: "3.mp3",
+        aaudio: "3.mp3",
       },
       {
         prompt: "Where do you go? (home(house-Diary form))",
@@ -1181,6 +1187,8 @@ const library = {
         alt: "Picture of a house.",
         credit: `<span>Photo by <a href="https://unsplash.com/@jacquesbopp?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jacques Bopp</a> on <a href="https://unsplash.com/s/photos/house?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
        answer: "나는 집에 간다 ",
+       qaudio: "4.mp3",
+       aaudio: "4.mp3",
       },
       {
         prompt: "What did you eat? (rice-Diary form). Will you eat? (yes...-Diary form less - uncommon future form) What was delicious? (that food-Diary form).  What will be delicious? (that thing...Diary form). Will you be hungry? (Yes...-Diary form)",
@@ -1188,6 +1196,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 밥을 먹었다. 나는 먹겠다. 그 음식은 맛있었다.  그것은 맛있겠다.  나는 배고프겠다      ",
+        qaudio: "5.mp3",
+        aaudio: "5.mp3",
       },
       {
         prompt: "What did you close? (door-Diary form)",
@@ -1195,6 +1205,8 @@ const library = {
         alt: "Picture of an open door",
         credit: `<span>Photo by <a href="https://unsplash.com/@pechka?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Dima Pechurin</a> on <a href="https://unsplash.com/s/photos/door?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 문을 닫았다 ",
+        qaudio: "6.mp3",
+        aaudio: "6.mp3",
       },
       {
         prompt: "What did you open? (window-Diary form)",
@@ -1202,6 +1214,8 @@ const library = {
         alt: "Picture of a window.",
         credit: `<span>Photo by <a href="https://unsplash.com/@danielle_dolson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Danielle Dolson</a> on <a href="https://unsplash.com/s/photos/window?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
          answer: "나는 창문을 열었다 ",
+         qaudio: "7.mp3",
+         aaudio: "7.mp3",
       },
       {
         prompt: "Where did you go? (museum-Diary form)",
@@ -1209,6 +1223,8 @@ const library = {
         alt: "Picture of museum",
         credit: `<span>Photo by <a href="https://unsplash.com/@anthonydelanoix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Anthony DELANOIX</a> on <a href="https://unsplash.com/s/photos/museum?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "나는 박물관에 갔다  ",
+        qaudio: "8.mp3",
+        aaudio: "8.mp3",
       },
       {
         prompt: "Who came to the store? (Uncle-Diary form)",
@@ -1216,6 +1232,8 @@ const library = {
         alt: "Picture of a store open",
         credit: `<span>Photo by <a href="https://unsplash.com/@mikepetrucci?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mike Petrucci</a> on <a href="https://unsplash.com/s/photos/store?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "삼촌은 가게에 왔다  ",
+        qaudio: "9.mp3",
+        aaudio: "9.mp3",
       },
       {
         prompt: "Who learned English? (older brother (of sister)-Diary form)",
@@ -1223,6 +1241,8 @@ const library = {
         alt: "open diary.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@dtravisphd?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">David Travis</a> on <a href="https://unsplash.com/s/photos/english-writing?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "오빠는 영어를 배웠다  ",
+        qaudio: "10.mp3",
+        aaudio: "10.mp3",
       },
       {
         prompt: "Did you throw the ball? (yes…Diary form)",
@@ -1230,6 +1250,8 @@ const library = {
         alt: "Picture of a tennis ball",
         credit: `<span>Photo by <a href="https://unsplash.com/@zahra_rfi96?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Zahra Rafiei</a> on <a href="https://unsplash.com/s/photos/ball?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "나는 공을 던졌다 ",
+        qaudio: "11.mp3",
+        aaudio: "11.mp3",
       },
       {
         prompt: "Did you cross the street?길 (yes...-Diary form)",
@@ -1237,6 +1259,8 @@ const library = {
         alt: "man in road.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@jeremybishop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeremy Bishop</a> on <a href="https://unsplash.com/s/photos/man-in-street?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "나는 길을 건넜다 ",
+        qaudio: "12.mp3",
+        aaudio: "12.mp3",
       },
       {
         prompt: "Will you go? (yes...-Diary form  - uncommon future form)",
@@ -1244,6 +1268,8 @@ const library = {
         alt: "person leaving",
         credit: `<span>Photo by <a href="https://unsplash.com/@mantashesthaven?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mantas Hesthaven</a> on <a href="https://unsplash.com/s/photos/person-leaving?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "나는 가겠다  ",
+        qaudio: "13.mp3",
+        aaudio: "13.mp3",
       },
       {
         prompt: "Who is beautiful? (that teacher---Diary form) Who was good? (that teacher-Diary form)",
@@ -1251,6 +1277,8 @@ const library = {
         alt: "Picture of Teacher",
         credit: `<span>Photo by <a href="https://unsplash.com/@windows?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Windows</a> on <a href="https://unsplash.com/s/photos/teacher-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "그 선생님은 아름답다. 그 선생님은 좋았다 ",
+        qaudio: "14.mp3",
+        aaudio: "14.mp3",
       },
       {
         prompt: "What is long? (that street-Diary form).  What was long? (that street-Diary form)",
@@ -1258,6 +1286,8 @@ const library = {
         alt: "man in road.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@jeremybishop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeremy Bishop</a> on <a href="https://unsplash.com/s/photos/man-in-street?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "그 길은 길다. 그 길은 길었다   ",
+        qaudio: "15.mp3",
+        aaudio: "15.mp3",
       },
       {
         prompt: "What is big? (my hand-Diary form)",
@@ -1265,6 +1295,8 @@ const library = {
         alt: "hand over lake",
         credit: `<span>Photo by <a href="https://unsplash.com/@jeremybishop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeremy Bishop</a> on <a href="https://unsplash.com/s/photos/big-hand?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "나의 손은 크다 ",
+        qaudio: "16.mp3",
+        aaudio: "16.mp3",
       },
       {
         prompt: "What was old? (that restaurant-Diary form (old=something that has existed for a long time)",
@@ -1272,6 +1304,8 @@ const library = {
         alt: "old restaurant",
         credit: `<span>Photo by <a href="https://unsplash.com/@rokjecar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rok Zabukovec</a> on <a href="https://unsplash.com/s/photos/old-restaurant?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "그 식당이 오래되었다  ",
+        qaudio: "17.mp3",
+        aaudio: "17.mp3",
       },
       {
         prompt: "What was expensive? (this-Diary form)",
@@ -1279,6 +1313,8 @@ const library = {
         alt: "Picture of a Boat",
         credit: `<span>Photo by <a href="https://unsplash.com/@gautamkrishnan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Gautam Krishnan</a> on <a href="https://unsplash.com/s/photos/boat?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "이것은 비쌌다  ",
+        qaudio: "18.mp3",
+        aaudio: "18.mp3",
       },
       {
         prompt: "Who was handsome? (That man-Diary from)",
@@ -1286,6 +1322,8 @@ const library = {
         alt: "a handsome man",
         credit: `<span>Photo by <a href="https://unsplash.com/@alexiby?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alex Iby</a> on <a href="https://unsplash.com/s/photos/handsome-man?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "그 남자는 잘생겼다  ",
+        qaudio: "19.mp3",
+        aaudio: "19.mp3",
       },
       {
         prompt: "Who was fat? (that person-Diary form)",
@@ -1293,6 +1331,8 @@ const library = {
         alt: "fat man.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@canweallgo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AllGo - An App For Plus Size People</a> on <a href="https://unsplash.com/s/photos/fat-man?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "그 사람은 뚱뚱했다 ",
+        qaudio: "20.mp3",
+        aaudio: "20.mp3",
       },
       {
         prompt: "Will you be happy? (Yes...Diary form)",
@@ -1300,6 +1340,8 @@ const library = {
         alt: "happy girl",
         credit: `<span>Photo by <a href="https://unsplash.com/@ryanmoreno?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ryan Moreno</a> on <a href="https://unsplash.com/s/photos/happy-person?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "나는 행복하겠다  ",
+        qaudio: "21.mp3",
+        aaudio: "21.mp3",
       },
     ],
     "1-5.2":[
