@@ -1444,6 +1444,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 항상 저녁에 음식을 먹어.  저는 항상 저녁에 음식을 먹어요.  저는 항상 저녁에 음식을 먹습니다. ",
+        qaudio: "1.mp3",
+        aaudio: "1.mp3",
       },
       {
         prompt: "Do you always see your teacher? (Informal low respect) Do you always see your teacher?  Do you always see your teacher? (Formal High respect) ",
@@ -1451,6 +1453,8 @@ const library = {
         alt: "Picture of Teacher",
         credit: `<span>Photo by <a href="https://unsplash.com/@windows?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Windows</a> on <a href="https://unsplash.com/s/photos/teacher-points-to-herself?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`,
         answer: "나는 나의 선생님을 항상 봐.  저는 저의 선생님을 항상 봐요. 저는 저의 선생님을 항상 봅니다 ",
+        qaudio: "2.mp3",
+        aaudio: "2.mp3",
       },
       {
         prompt: "Do you always exercise in the morning? (Informal low respect)  Do you always exercise in the morning?  Do you always exercise in the morning? (Formal High respect) ",
@@ -1458,6 +1462,8 @@ const library = {
         alt: "three people running",
         credit: `<span>Photo by <a href="https://unsplash.com/@fitmasu?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fitsum Admasu</a> on <a href="https://unsplash.com/s/photos/exercise?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 항상 아침에 운동해. 저는 항상 아침에 운동해요.  저는 항상 아침에 운동합니다  ",
+        qaudio: "3.mp3",
+        aaudio: "3.mp3",
       },
       {
         prompt: "Did you eat?  (Informal low respect)  Did you eat?  Did you eat?  (Formal High respect)  ",
@@ -1465,6 +1471,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 먹었어. 저는 먹었어요. 저는 먹었습니다",
+        qaudio: "4.mp3",
+        aaudio: "4.mp3",
       },
       {
         prompt: "Did you listen?  (Informal low respect)  Did you listen?   Did you listen?  (Formal High respect) ",
@@ -1472,6 +1480,8 @@ const library = {
         alt: "picture of an ear",
         credit: `<span>Photo by <a href="https://unsplash.com/@francogio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Franco Antonio Giovanella</a> on <a href="https://unsplash.com/s/photos/listen?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 들어봤어.  저는 들어봤어요. 저는 들어봤습니다   ",
+        qaudio: "5.mp3",
+        aaudio: "5.mp3",
       },
       {
         prompt: "Did you exercise?  (Informal low respect) Did you exercise?  Did you exercise?  (Formal High respect)  ",
@@ -1479,6 +1489,8 @@ const library = {
         alt: "three people running",
         credit: `<span>Photo by <a href="https://unsplash.com/@fitmasu?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Fitsum Admasu</a> on <a href="https://unsplash.com/s/photos/exercise?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 운동했어.  저는 운동했어요.  저는 운동했습니다 ",
+        qaudio: "6.mp3",
+        aaudio: "6.mp3",
       },
       {
         prompt: "Will you eat?  (Informal low respect)  Will you eat?  Will you eat?  (Formal High respect)",
@@ -1486,6 +1498,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 먹겠어.  저는 먹겠어요.  저는 먹겠습니다 ",
+        qaudio: "7.mp3",
+        aaudio: "7.mp3",
       },
       {
         prompt: "Will you learn?  (Informal low respect) Will you learn? Will you learn?  (Formal High respect) ",
@@ -1493,6 +1507,8 @@ const library = {
         alt: "learn sign on wall.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@timmossholder?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Tim Mossholder</a> on <a href="https://unsplash.com/s/photos/learn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "나는 배우겠어.  저는 배우겠어요. 저는 배우겠습니다. ",
+        qaudio: "8.mp3",
+        aaudio: "8.mp3",
       },
     ],
     "1-6.2":[
@@ -1502,6 +1518,8 @@ const library = {
         alt: "grandfather with book.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@aaronandrewang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Aaron Andrew Ang</a> on <a href="https://unsplash.com/s/photos/old-man?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 할아버지는 책을 끝냈어요",
+        qaudio: "1.mp3",
+        aaudio: "1.mp3",
       },
       {
         prompt: "Does grandmother joke?",
@@ -1509,6 +1527,8 @@ const library = {
         alt: "grandmother hands.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@cristian_newman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Cristian Newman</a> on <a href="https://unsplash.com/s/photos/old-woman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 할머니는 농담해요",
+        qaudio: "2.mp3",
+        aaudio: "2.mp3",
       },
       {
         prompt: "Is that older woman (not related to you) too thin?",
@@ -1516,6 +1536,8 @@ const library = {
         alt: "thin woman.jpg",
         credit: `<span>Photo by <a href="https://unsplash.com/@jairoalzatedesign?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jairo Alzate</a> on <a href="https://unsplash.com/s/photos/thin-woman?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 그 아주머니는 너무 마라요",
+        qaudio: "3.mp3",
+        aaudio: "3.mp3",
       },
       {
         prompt: "Will you eat tomorrow?  Will you eat today?  Did you eat yesterday? Will you eat the day after tomorrow?",
@@ -1523,6 +1545,8 @@ const library = {
         alt: "Picture of food.",
         credit: `<span>Photo by <a href="https://unsplash.com/@therachelstory?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rachel Park</a> on <a href="https://unsplash.com/s/photos/food?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`, 
         answer: "네, 내일 먹겠어요.  네, 오늘 먹겠어요.  네, 어제, 먹었어요.  네, 모레 먹겠어요.",
+        qaudio: "4.mp3",
+        aaudio: "4.mp3",
       },
     ],
       "1-7.1":[
