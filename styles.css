@@ -125,3 +125,14 @@
 .dropdown:hover .dropdown-content:not(:focus):hover {
   display: none;
 } */
+
+
+#audioOptionsContainer {
+  text-align: right;
+  padding: 10px; /* Adjust padding as needed */
+}
+
+#audioOptionsContainer form {
+  display: inline-block;
+  text-align: left;
+}
